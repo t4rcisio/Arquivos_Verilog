@@ -29,6 +29,7 @@ CRISTAL OSCILADOR: 50MHZ
 Memória: 64 MBits
 
 AQUI UM LINK COM MAIS DETALHES : https://www.embarcados.com.br/placa-de-fpga-com-cyclone-iv/
+
 AQUI ONDE IMPORTEI A PEÇA: http://bit.ly/3rV8QjT
  
 
