@@ -34,8 +34,8 @@ MODELO: PLACA RZ-EASYFPGA ALTERA CYCLONE IV EP4CE6
 CRISTAL OSCILADOR: 50MHZ
 Memória: 64 MBits
 
-[AQUI](https://www.embarcados.com.br/placa-de-fpga-com-cyclone-iv/) UM LINK COM MAIS DETALHES 
-[AQUI](http://bit.ly/3rV8QjT ONDE IMPORTEI) A PEÇA
+* [AQUI](https://www.embarcados.com.br/placa-de-fpga-com-cyclone-iv/) UM LINK COM MAIS DETALHES 
+* [AQUI](http://bit.ly/3rV8QjT ONDE IMPORTEI) A PEÇA
  
 
 *****************
