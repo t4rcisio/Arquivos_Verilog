@@ -39,7 +39,7 @@ Memória: 64 mbits
  
 
 ********************
-*   **ARQUIVOS**   
+    **ARQUIVOS**   
 ********************
 
 **1 - Clock_50MHZ_to_1HZ**
