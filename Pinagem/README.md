@@ -18,13 +18,21 @@ RESET, PIN_25
 
 ```
 
-#### PINAGEM COMPLETA DA PLACA
+#### PINAGEM
 ***
-![](https://github.com/tarcisio01/MY_FPGA_VERILOG/blob/main/Minha_FPGA.jpg)
+[Baixe aqui a pinagem completa](https://github.com/filippovf/KitEasyFPGA/blob/master/EasyFPGA-Informa%C3%A7%C3%B5esImportantesePinagem.pdf)
 
 ***
 
 SEGUE ABAIXO O TUTORIAL PARA PINAR A PLACA.
+```
+COMPILE SEU PROJETO, SE DEU TUDO CERTO, VÁ PARA A PINAGEM.
+
+```
+![](https://github.com/tarcisio01/Tutorial_Verilog/blob/main/imagens/img_1.png)
+![](https://github.com/tarcisio01/Tutorial_Verilog/blob/main/imagens/img_2.PNG)
+![](https://github.com/tarcisio01/Tutorial_Verilog/blob/main/imagens/img_3.PNG)
+#### NÃO SE ESQUEÇA DE MUDAR O TIPO DE ARQUIVO PARA TXT
+![](https://github.com/tarcisio01/Tutorial_Verilog/blob/main/imagens/img_4.PNG)
 
 ***
-![](https://github.com/tarcisio01/MY_FPGA_VERILOG/blob/main/Minha_FPGA.jpg)
