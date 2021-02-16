@@ -18,24 +18,24 @@
 
 
 
-OLÁ, MEU NOME É TARCÍSIO, E ESTOU CURSANDO ENGENHARIA DE COMPUTAÇÃO
-NO CEFET-MG.
-RESOLVI ABRIR ESSE ESPAÇO PARA COMPARTILHAR ALGUNS 
-CÓDIGOS EM VERILOG QUE DESENVOLVI AO LONGO DO CURSO DE SISTEMAS DIGITAIS.
+Olá, meu nome é tarcísio, e estou cursando engenharia de computação
+No CEFET-mg.
+Resolvi abrir esse espaço para compartilhar alguns 
+Códigos em verilog que desenvolvi ao longo do curso de sistemas digitais.
 
-COMO SOU UM ENTUSIASTA DA ÁREA DE HARDWARE, ADQUIRI UMA FPGA, SEMELHANTE 
-A QUE USAMOS NOS LABORATÓRIOS DA UNIVERSIDADE, PARA BRINCAR E FAZER ALGUNS PROJETOS.
-NO INÍCIO DO CURSO DE SISTEMAS DIGITAIS, ACHEI A DOCUMENTAÇÃO, DE VERILOG, EM PORTUGUÊS, 
-POUCO INTUITIVA ENTÃO COMENTEI EM TODOS OS CÓDIGOS O PASSO A PASSO DO DESENVOLVIMETO.
+Como sou um entusiasta da área de hardware, adquiri uma fpga, semelhante 
+a que usamos nos laboratórios da universidade, para brincar e fazer alguns projetos.
+no início do curso de sistemas digitais, achei a documentação, de verilog, em português, 
+pouco intuitiva então comentei em todos os códigos o passo a passo do desenvolvimeto.
 
-ALGUMAS EXPECIFICAÇÕES DA MINHA FPGA:
+Algumas especificações da minha fpga:
 
-MODELO: PLACA RZ-EASYFPGA ALTERA CYCLONE IV EP4CE6
-CRISTAL OSCILADOR: 50MHZ
-Memória: 64 MBits
+Modelo: placa rz-easyfpga altera cyclone iv ep4ce6
+Cristal oscilador: 50mhz
+Memória: 64 mbits 
 
-* [AQUI](https://www.embarcados.com.br/placa-de-fpga-com-cyclone-iv/) UM LINK COM MAIS DETALHES 
-* [AQUI](http://bit.ly/3rV8QjT ONDE IMPORTEI) A PEÇA
+* [AQUI](https://www.embarcados.com.br/placa-de-fpga-com-cyclone-iv/) UM LINK COM MAIS DETALHES SOBRE A PLACA. 
+* [AQUI](http://bit.ly/3rV8QjT) ONDE IMPORTEI A PEÇA
  
 
 *****************
