@@ -1,41 +1,33 @@
-# MY_FPGA_VERILOG
- Repositório onde compartilho meus códigos em verilog HDL
+# CONATDOR COM DISPLAY DE 7 SEGMENTOS
 
-*************************************************************** 
-*    * * * * *       * * * * *       * * * * *       * * *    *  
-*   *               *       *       *               *     *   *   
-*  * * * * *       * *  *  *       *    * * *      * * * * *  *   
-* *               *               *       *       *         * *   
-**               *               * * * * *       *           **   
-*************************************************************** 
+Esse conjunto de arquivos gera um contador de 0 até 15.
+a contagem é exibida no display e nos leds da placa;
 
-ESSE CONJUNTO DE ARQUIVOS GERA UM CONTADOR DE 0 ATÉ 15.
-A CONTAGEM É EXIBIDA NO DISPLAY E NOS LEDS DA PLACA;
+O arquivo principal é o contador_7seg.v, logo o projeto deve possuir o mesmo nome
+para o quartus conseguir compilá-lo.
 
-O ARQUIVO PRINCIPAL É O contador_7seg.V, LOGO O PROJETO DEVE POSSUIR O MESMO NOME
-PARA O QUARTUS CONSEGUIR COMPILÁ-LO.
+Na placa onde foi implementado o projeto, o display está ligado a um tubo lcd, ou seja, só é possível
+ligar um por vez. Dessa forma foi necessário montar o clock para o display, de forma que a ele 
+alternasse muito rápido entre a exibição dos números dando a impressão de que ambos estão ligados.
 
-NA PLACA ONDE FOI IMPLEMENTADO O PROJETO, O DISPLAY ESTÁ LIGADO A UM TUBO LCD, OU SEJA, SÓ É POSSÍVEL
-LIGAR UM POR VEZ. DESSA FORMA FOI NECESSÁRIO MONTAR O CLOCK PARA O DISPLAY, DE FORMA QUE A ELE 
-ALTERNASSE MUITO RÁPIDO ENTRE A EXIBIÇÃO DOS NÚMEROS DANDO A IMPRESSÃO DE QUE AMBOS ESTÃO LIGADOS.
 
 
 
 *****************
-*   ARQUIVOS    *
+####   ARQUIVOS    
 *****************
 
-1 - contador_7seg 
-    * ARQUIVO PRINCIPAL.
+**1 - contador_7seg** 
+*    ARQUIVO PRINCIPAL.
 
-2 - divClock.v
-    * DIVISOR DE CLOCK, RECEBE 50MHZ E RETORNA 1HZ. É O CLOCK DO CONTADOR.
+**2 - divClock.v**
+*    DIVISOR DE CLOCK, RECEBE 50MHZ E RETORNA 1HZ. É O CLOCK DO CONTADOR.
 
-3 - display_Clock.v
-    * GERA UM CLOCK PARA ALTERNAR OS DISPLAYS DE FORMA QUE APARENTA QUE AMBOS ESTÃO LIGADOS.
+**3 - display_Clock.v**
+*    GERA UM CLOCK PARA ALTERNAR OS DISPLAYS DE FORMA QUE APARENTA QUE AMBOS ESTÃO LIGADOS.
 
-4 - divisor.v
-    * CASO O CONTADOR SEJA MAIOR OU IGUAL A 10, O NUMERO É DIVIDIDO PARA SER EXIBIDO EM CADA DISPLAY.
+**4 - divisor.v**
+*    CASO O CONTADOR SEJA MAIOR OU IGUAL A 10, O NUMERO É DIVIDIDO PARA SER EXIBIDO EM CADA DISPLAY.
 
-5 - conf_7seg_out.v
-    * RETORNA A CONFIGURAÇÃO PARA ACENDER OS SEGMENTOS DOS DISPLAY DE 7 SEGMENTOS.
+**5 - conf_7seg_out.v**
+*    RETORNA A CONFIGURAÇÃO PARA ACENDER OS SEGMENTOS DOS DISPLAY DE 7 SEGMENTOS.

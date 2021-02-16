@@ -18,7 +18,7 @@
 
 
 
-Olá, meu nome é tarcísio, e estou cursando engenharia de computação
+Olá, meu nome é Tarcísio, e estou cursando engenharia de computação
 No CEFET-mg.
 Resolvi abrir esse espaço para compartilhar alguns 
 Códigos em verilog que desenvolvi ao longo do curso de sistemas digitais.
