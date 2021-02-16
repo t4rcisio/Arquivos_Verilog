@@ -38,7 +38,7 @@ Memória: 64 Mbits
 * [aqui](http://bit.ly/3rv8qjt) onde importei a peça.
 
 ***
-![](https://github.com/tarcisio01/MY_FPGA_VERILOG/blob/main/Minha_FPGA.jpg)
+![](https://github.com/tarcisio01/Tutorial_Verilog/blob/main/imagens/Minha_FPGA.jpg)
 
 ********************
 #####    ARQUIVOS   
