@@ -1,4 +1,4 @@
-# REPOSITÍRIOS DE CÓDIGO EM VERILOG HDL
+# REPOSITÍRIO DE CÓDIGO EM VERILOG HDL
 
 
 
@@ -36,7 +36,9 @@ Memória: 64 mbits
 
 * [AQUI](https://www.embarcados.com.br/placa-de-fpga-com-cyclone-iv/) UM LINK COM MAIS DETALHES SOBRE A PLACA. 
 * [AQUI](http://bit.ly/3rV8QjT) ONDE IMPORTEI A PEÇA
- 
+***
+![](https://github.com/tarcisio01/MY_FPGA_VERILOG/blob/main/Minha_FPGA.jpg)
+***
 
 ********************
 #####    ARQUIVOS   
@@ -46,10 +48,10 @@ Memória: 64 mbits
 *     DIVISOR DE CLOCK( CLOCK DIVIDER). RECEBE UM CLOCK DE 50MHZ E GERA UMA SAÍDA DE 1HZ.
 
 **2 - Contador_com_led**
-*     CONTADOR DE 0 ATÉ 15 EM BINÁRIO. O CONTAGEM É EXIBIDO NOS LEDS.
+*     CONTADOR DE 0 ATÉ 15 EM BINÁRIO. A CONTAGEM É EXIBIDO NOS LEDS.
 
 **3 - Contador_com_display**
-*     CONTADOR DE 0 ATÉ 15 EM BINÁRIO. O CONTAGEM É EXIBIDO NOS LEDS e no LCD.
+*     CONTADOR DE 0 ATÉ 15 EM BINÁRIO. A CONTAGEM É EXIBIDO NOS LEDS e no LCD.
 
 **4 - assignments.txt**
 *     ALGUMAS PINAGENS PARA O MODELO DA MINHA PLACA.
