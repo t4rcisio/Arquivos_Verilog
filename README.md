@@ -3,8 +3,8 @@
 
 
 
-###  Repositório onde compartilho meus códigos em verilog HDL
-### Repository where I share my codes in verilog HDL
+####  Repositório onde compartilho meus códigos em verilog HDL
+#### Repository where I share my codes in verilog HDL
 ```
                 *************************************************************** 
                 *    * * * * *       * * * * *       * * * * *       * * *    *  
@@ -34,22 +34,22 @@ MODELO: PLACA RZ-EASYFPGA ALTERA CYCLONE IV EP4CE6
 CRISTAL OSCILADOR: 50MHZ
 Memória: 64 MBits
 
-[AQUI] (https://www.embarcados.com.br/placa-de-fpga-com-cyclone-iv/) UM LINK COM MAIS DETALHES 
-[AQUI] (http://bit.ly/3rV8QjT ONDE IMPORTEI) A PEÇA
+[AQUI](https://www.embarcados.com.br/placa-de-fpga-com-cyclone-iv/) UM LINK COM MAIS DETALHES 
+[AQUI](http://bit.ly/3rV8QjT ONDE IMPORTEI) A PEÇA
  
 
 *****************
 *   ARQUIVOS    *
 *****************
 
-1 - Clock_50MHZ_to_1HZ
+**1 - Clock_50MHZ_to_1HZ**
     * DIVISOR DE CLOCK( CLOCK DIVIDER). RECEBE UM CLOCK DE 50MHZ E GERA UMA SAÍDA DE 1HZ.
 
-2 - Contador_com_led
+**2 - Contador_com_led**
     * CONTADOR DE 0 ATÉ 15 EM BINÁRIO. O CONTAGEM É EXIBIDO NOS LEDS.
 
-3 - Contador_com_display
+**3 - Contador_com_display**
     *CONTADOR DE 0 ATÉ 15 EM BINÁRIO. O CONTAGEM É EXIBIDO NOS LEDS e no LCD.
 
-4 - assignments.txt
+**4 - assignments.txt**
     * ALGUMAS PINAGENS PARA O MODELO DA MINHA PLACA.
