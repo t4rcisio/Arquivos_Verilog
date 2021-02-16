@@ -17,7 +17,7 @@ alternasse muito rápido entre a exibição dos números dando a impressão de q
 ####   ARQUIVOS    
 *****************
 
-**1 - contador_7seg** 
+**1 - contador_7seg.v** 
 *    ARQUIVO PRINCIPAL.
 
 **2 - divClock.v**
