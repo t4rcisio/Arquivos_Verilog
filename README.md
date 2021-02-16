@@ -53,5 +53,5 @@ Memória: 64 Mbits
 **3 - Contador_com_display**
 *     CONTADOR DE 0 ATÉ 15 EM BINÁRIO. A CONTAGEM É EXIBIDA NOS LEDS e no LCD.
 
-**4 - assignments.txt**
+**4 - Pinagem**
 *     ALGUMAS PINAGENS PARA O MODELO DA MINHA PLACA.
