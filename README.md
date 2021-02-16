@@ -38,9 +38,9 @@ Memória: 64 mbits
 * [AQUI](http://bit.ly/3rV8QjT) ONDE IMPORTEI A PEÇA
  
 
-*****************
-*   ARQUIVOS    *
-*****************
+********************
+*   **ARQUIVOS**   *
+********************
 
 **1 - Clock_50MHZ_to_1HZ**
 *     DIVISOR DE CLOCK( CLOCK DIVIDER). RECEBE UM CLOCK DE 50MHZ E GERA UMA SAÍDA DE 1HZ.
