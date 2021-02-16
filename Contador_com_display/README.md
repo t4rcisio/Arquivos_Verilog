@@ -1,4 +1,4 @@
-# CONATDOR COM DISPLAY DE 7 SEGMENTOS
+# CONTADOR COM DISPLAY DE 7 SEGMENTOS
 
 Esse conjunto de arquivos gera um contador de 0 até 15.
 a contagem é exibida no display e nos leds da placa;
