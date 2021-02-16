@@ -6,9 +6,9 @@ a contagem é exibida no display e nos leds da placa;
 O arquivo principal é o contador_7seg.v, logo o projeto deve possuir o mesmo nome
 para o quartus conseguir compilá-lo.
 
-Na placa onde foi implementado o projeto, o display está ligado a um tubo lcd, ou seja, só é possível
-ligar um por vez. Dessa forma foi necessário montar o clock para o display, de forma que a ele 
-alternasse muito rápido entre a exibição dos números dando a impressão de que ambos estão ligados.
+Na placa onde foi implementado o projeto, o display está ligado a um controlador lcd, ou seja, só é possível ligar um por vez. Dessa forma foi necessário montar o clock para o display, de forma que a ele alternasse muito rápido entre a exibição dos números dando a impressão de que ambos estão ligados.
+
+Na configuração atual, a taxa de atualização do display é de 50khz. 
 
 
 
