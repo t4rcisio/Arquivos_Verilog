@@ -34,8 +34,9 @@ Modelo: placa rz-easyfpga altera cyclone iv ep4ce6
 Cristal oscilador: 50mhz
 Memória: 64 mbits 
 
-* [AQUI](https://www.embarcados.com.br/placa-de-fpga-com-cyclone-iv/) UM LINK COM MAIS DETALHES SOBRE A PLACA. 
-* [AQUI](http://bit.ly/3rV8QjT) ONDE IMPORTEI A PEÇA
+* [AQUI](https://www.embarcados.com.br/placa-de-fpga-com-cyclone-iv/) Um link com mais detalhes sobre a placa. 
+* [aqui](http://bit.ly/3rv8qjt) onde importei a peça
+
 ***
 ![](https://github.com/tarcisio01/MY_FPGA_VERILOG/blob/main/Minha_FPGA.jpg)
 
