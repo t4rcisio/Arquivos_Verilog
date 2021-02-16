@@ -5,10 +5,11 @@ PARA PINAR A SUA PLACA, SEJA ESSE OU QUALQUER OUTRO MODELO, VOCÊ DEVE POSSUIR
 A TABELA DE PINOS REFERENTE A **SUA** FPGA!
 O ARQUIVO PARA PINAGEM SEGUE A SEGUINTE ESTRUTURA:
 
-####nome, numero_do_pino
+#### nome, numero_do_pino
 O nome do pino **DEVE** ser o mesmo que você declarou no seu arquivo principal.
 ```
-Exemplo:
+//Exemplo:
+//Em um arquivo txt
 
 Clock_50, PIN_23
 RESET, PIN_25
