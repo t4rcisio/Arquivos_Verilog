@@ -16,26 +16,14 @@
 ```
     
 
-
-
-Olá, meu nome é Tarcísio, e estou cursando engenharia de computação
-No CEFET-mg.
-Resolvi abrir esse espaço para compartilhar alguns 
-Códigos em verilog que desenvolvi ao longo do curso de sistemas digitais.
-
-Como sou um entusiasta da área de hardware, adquiri uma fpga, semelhante 
-a que usamos nos laboratórios da universidade, para brincar e fazer alguns projetos.
-no início do curso de sistemas digitais, achei a documentação, de verilog, em português, 
-pouco intuitiva então comentei em todos os códigos o passo a passo do desenvolvimeto.
-
 Algumas especificações da minha fpga:
 
-Modelo: placa rz-easyfpga altera cyclone iv ep4ce6
-Cristal oscilador: 50mhz
-Memória: 64 Mbits 
+* Modelo: placa rz-easyfpga altera cyclone iv ep4ce6
+* Cristal oscilador: 50mhz
+* Memória: 64 Mbits 
 
-* [AQUI](https://www.embarcados.com.br/placa-de-fpga-com-cyclone-iv/) Um link com mais detalhes sobre a placa. 
-* [aqui](http://bit.ly/3rv8qjt) onde importei a peça.
+* [AQUI](https://www.embarcados.com.br/placa-de-fpga-com-cyclone-iv/) - Um link com mais detalhes sobre a placa. 
+* [AQUI](http://bit.ly/3rv8qjt) - Onde importei a peça.
 
 ***
 ![](https://github.com/tarcisio01/Tutorial_Verilog/blob/main/imagens/Minha_FPGA.jpg)
