@@ -18,7 +18,15 @@
 
 
 
+Olá, meu nome é Tarcísio, e estou cursando engenharia de computação
+No CEFET-mg.
+Resolvi abrir esse espaço para compartilhar alguns 
+Códigos em verilog que desenvolvi ao longo do curso de sistemas digitais.
 
+Como sou um entusiasta da área de hardware, adquiri uma fpga, semelhante 
+a que usamos nos laboratórios da universidade, para brincar e fazer alguns projetos.
+no início do curso de sistemas digitais, achei a documentação, de verilog, em português, 
+pouco intuitiva então comentei em todos os códigos o passo a passo do desenvolvimeto.
 
 Algumas especificações da minha fpga:
 
@@ -44,6 +52,9 @@ Memória: 64 Mbits
 
 **3 - Contador_com_display**
 *     CONTADOR DE 0 ATÉ 15 EM BINÁRIO. A CONTAGEM É EXIBIDA NOS LEDS e no LCD.
+
+**4 - Controlador_do_Display**
+*     CONTROLA A EXIBIÇÃO NO DISPLAY.
 
 **4 - Pinagem**
 *     ALGUMAS PINAGENS PARA O MODELO DA MINHA PLACA.
