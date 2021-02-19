@@ -1,4 +1,11 @@
 
+/*
+
+@t4rcisio
+2021
+BR
+
+*/
 
 
 module divisor(clock_50H, num, new_num, tube);

@@ -1,4 +1,11 @@
 
+/*
+
+@t4rcisio
+2021
+BR
+
+*/
 
 module divClock(clock_50MHZ,newClock);
 

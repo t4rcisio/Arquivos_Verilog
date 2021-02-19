@@ -1,4 +1,11 @@
 
+/*
+
+@t4rcisio
+2021
+BR
+
+*/
 
 
 module conf_7seg_out(clock_1hz,val,display);
