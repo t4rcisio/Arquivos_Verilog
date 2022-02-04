@@ -1,0 +1,166 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\AOC_1\nRisc_processor\nRisc_core_III\nRisc_core\simulation\modelsim
+valu
+IYW[4Im__]lTz14>TERZET3
+VWlT7f?MPVfalJClzdUc_H0
+Z1 dC:\AOC_1\nRisc_processor\nRisc_core_III\nRisc_core\simulation\modelsim
+w1643998756
+8C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/alu.v
+FC:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/alu.v
+L0 21
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core -O0
+!i10b 1
+!s100 :Gn9P;RRWgBV<RPSNK@^41
+!s85 0
+!s108 1643999214.003000
+!s107 C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core|C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/alu.v|
+!s101 -O0
+vcontroler
+Iknk]Z7?=B;N@WFOQUd7gJ1
+V:mX0nnI6EY>Of;c_Ufd9[0
+R1
+w1643995780
+8C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/controler.v
+FC:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/controler.v
+L0 23
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 @JoRX3K6Vka5TKPAjf@RW0
+!s85 0
+!s108 1643999213.815000
+!s107 C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/controler.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core|C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/controler.v|
+!s101 -O0
+vinstructions_memory
+Id_;To`FE_?6>LKj0gV5Og2
+VBH@CE:cORU5zTZQSCdZzT3
+R1
+w1643999177
+8C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/instructions_memory.v
+FC:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/instructions_memory.v
+L0 19
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 NhB8HRi^2;;XH;`dh5Db23
+!s85 0
+!s108 1643999213.643000
+!s107 C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/instructions_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core|C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/instructions_memory.v|
+!s101 -O0
+vmemory
+!i10b 1
+!s100 5Z9TZ2HIfN`Mdbcf2JUS?1
+IFK<F7`8CBN4LhLRiCWaH91
+V^;BgAddbUDHg4z6iF;AmU1
+R1
+w1643994661
+8C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/memory.v
+FC:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/memory.v
+L0 21
+R2
+r1
+!s85 0
+31
+!s108 1643999214.081000
+!s107 C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core|C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/memory.v|
+!s101 -O0
+R3
+R4
+vmux_alpha
+IDcoO44zI6LB`QSzS4FP^g3
+VfG5cG4^QLmadRgQIO]j3G0
+R1
+w1643994333
+8C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/mux_alpha.v
+FC:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/mux_alpha.v
+L0 17
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ?<keKgi5`J3aIe4C]R>h60
+!s85 0
+!s108 1643999213.737000
+!s107 C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/mux_alpha.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core|C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/mux_alpha.v|
+!s101 -O0
+vnRisc_core
+IWZ:b_aFFiNCz>jXMFe1zl3
+V[?M]oznZ@N`LmTc=nXbQZ0
+R1
+w1643996424
+8C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/nRisc_core.v
+FC:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/nRisc_core.v
+L0 14
+R2
+r1
+31
+R3
+nn@risc_core
+R4
+!i10b 1
+!s100 1I1QZ[`?S<NcL@>`A438^3
+!s85 0
+!s108 1643999213.440000
+!s107 C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/nRisc_core.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core|C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/nRisc_core.v|
+!s101 -O0
+vprogram_counter
+I1iNU;XR8PPL[TLDZB>dni1
+VgFG8Y[GA_YiV7D:RgUoV93
+R1
+w1643985754
+8C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/program_counter.v
+FC:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/program_counter.v
+L0 20
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 NTiPmQEo>2IRKF0ELARFV3
+!s85 0
+!s108 1643999213.549000
+!s107 C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/program_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core|C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/program_counter.v|
+!s101 -O0
+vregisters
+I[dSihzT^co]]eD_zWAhGf0
+VKmjJOT1QJbm:0QX?YEebH0
+R1
+w1643986607
+8C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/registers.v
+FC:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/registers.v
+L0 22
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 @9n@`Anj76T7;E<37JH;j1
+!s85 0
+!s108 1643999213.909000
+!s107 C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/registers.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core|C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/registers.v|
+!s101 -O0

@@ -1,0 +1,35 @@
+
+module program_counter(clock, jump_data, jump, pc );
+
+input clock;
+input jump;
+input [7:0] jump_data;
+
+output [7:0] pc;
+
+reg [7:0] counter;
+reg starter;
+reg [7:0] data;
+
+initial counter = 8'b00000000;
+initial starter = 0;
+
+
+always @(negedge clock) begin
+	
+	if(starter == 0) begin
+		counter = 0;
+		starter = !starter;
+	end
+	else
+	if(jump == 1)begin
+		counter = jump_data;
+	end
+	else
+		counter = counter + 1;
+
+end
+
+
+
+endmodule

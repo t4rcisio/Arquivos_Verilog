@@ -1,0 +1,63 @@
+
+
+
+
+
+
+
+
+
+
+module alu(clock, instruction, reg_a, reg_b, solution);
+
+input clock;
+input [2:0] instruction;
+input [7:0] reg_a;
+input [7:0] reg_b;
+
+output [7:0] solution;
+
+reg store_solution;
+reg [15:0] internal_solution;
+reg overflow;
+
+initial store_solution = 0;
+initial internal_solution = 8'b0000000;
+initial overflow = 0;
+
+assign solution = internal_solution[7:0];
+
+
+
+
+always @(posedge clock) begin 
+	overflow = 0;
+	if(instruction == 3'b000) begin // ADD
+		internal_solution = reg_a + reg_b;
+	end
+	else
+	if(instruction == 3'b001) begin // SUB
+		internal_solution = reg_a - reg_b;
+	end
+	else
+	if(instruction == 3'b010) begin // MUL
+		internal_solution = reg_a * reg_b;
+	end
+	else
+	if(instruction == 3'b110) begin // BEQ
+		if(reg_a == reg_b)
+			internal_solution = 8'b00000001;
+		else
+			internal_solution = 8'b00000000;
+	end
+	else
+		internal_solution = 8'b0000000;
+		
+	if(internal_solution > 16'd255)
+		overflow = 1;
+
+end
+
+
+
+endmodule

@@ -1,0 +1,5 @@
+*./
+!.txt
+!./*.v
+!./README.md
+!.gitignore

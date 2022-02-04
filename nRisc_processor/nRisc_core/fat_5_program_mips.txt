@@ -1,0 +1,19 @@
+li s5
+5
+li s0
+1
+li s2
+5
+li s1
+1
+li s4
+12
+ll zero
+16
+mul s5, s0
+add s0, s1
+beq s2, s0
+bnz s4, zero
+li zero
+0
+sw s5, zero

@@ -1,0 +1,73 @@
+
+
+
+
+
+
+module registers(clock_read, core_write, instruction_read, instruction_wrire, reg_alpha, reg_beta, imediate, data_alpha, data_beta, out_signal);
+
+input [2:0] instruction_read;
+input [2:0] instruction_wrire;
+input [2:0] reg_alpha;
+input [2:0] reg_beta;
+input [7:0] data;
+input clock;
+
+output jump;
+output [7:0] jump_data;
+
+
+reg [7:0]memory[7:0];
+
+reg [2:0] temp_index;
+reg await_solutions;
+
+reg [2:0] r_beq;
+reg [7:0] reg_jump;
+reg res_jump;
+
+
+wire [7:0] alu_solution;
+wire [7:0] mem_solution;
+
+initial memory[0] = 8'b00000000;
+initial await_solutions = 0;
+initial temp_index = 3'b000;
+initial r_beq = 3'b001;
+
+initial reg_jump = 8'b00000000;
+initial res_jump = 0;
+
+
+assign jump = res_jump;
+assign jump_data = reg_jump;
+
+always @(clock) begin
+	
+	res_jump = 0;
+	
+	if(instruction == 3'b011 && await_solutions == 0) begin // LI
+		memory[reg_alpha] = data;
+	end
+	if(await_solutions == 1) begin // Store data from ALU and Memory
+		memory[temp_index] =  alu_solution | mem_solution;
+		await_solutions = 0;
+	end
+	else
+	if(instruction == 3'b110 && await_solutions == 0) begin // BEQ
+		temp_index = r_beq;
+		await_solutions = 1;
+	end
+	else
+		temp_index = reg_alpha;
+		await_solutions = 1;
+	end
+
+end
+
+	
+	
+
+
+
+endmodule

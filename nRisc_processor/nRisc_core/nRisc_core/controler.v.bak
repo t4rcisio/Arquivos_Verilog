@@ -1,0 +1,62 @@
+
+
+
+
+
+
+
+
+
+module controler(clock, instruction, reg_alpha, reg_beta, data,  );
+
+input [2:0] instruction;
+input [2:0] reg_beta;
+input [2:0] reg_alpha;
+input [7:0] data;
+input clock;
+
+output jump;
+output [7:0] jump_data;
+
+reg li_instruction;
+reg [2:0] index_alpha;
+reg [2:0] index_beta;
+reg [2:0] operation;
+reg [7:0] data_in;
+
+
+
+initial li_instruction = 0;
+
+initial index_alpha = 3'b000;
+initial index_beta = 3'b000;
+initial operation = 3'b000;
+initial data_in = 8'b00000000;
+
+
+
+always @(clock) begin
+
+	if(li_instruction == 1) begin // load imediate - multicycle
+		data_in = data;
+		li_instruction = 0;
+	end
+	else
+	if(instruction == 3'b011 && li_instruction == 0) begin // load imediate
+		li_instruction = 1;
+		operation = instruction;
+		index_alpha = reg_alpha;
+	end
+	else
+	if(instruction == 3'b000 && li_instruction == 0) begin // demais instrucoes
+		index_alpha = reg_alpha;
+		index_beta = reg_beta;
+		operation = instruction;
+		
+	end
+end
+
+
+
+
+endmodule

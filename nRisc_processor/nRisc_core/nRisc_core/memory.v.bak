@@ -1,0 +1,36 @@
+
+
+
+
+
+
+module memory(clock, instruction, reg_alpha, reg_beta, data_out);
+
+input clock;
+input [2:0] instruction;
+input [7:0] reg_alpha;
+input [7:0] reg_beta;
+
+reg [7:0] memory [255:0];
+reg [7:0]solution;
+
+output [7:0]data_out;
+
+initial solution = 8'b0000000;
+
+assign data_out = solution;
+
+always @(clock) begin
+	
+	if(instruction == 3'b100 ) begin // store word
+		memory[reg_beta] = reg_alpha;
+	end
+	else
+	if(instruction == 3'b101)begin // load word
+		solution = memory[reg_beta];
+	end
+
+end
+
+
+endmodule

@@ -1,0 +1,10 @@
+
+
+
+module nRisc_core(clock);
+
+
+
+
+
+endmodule

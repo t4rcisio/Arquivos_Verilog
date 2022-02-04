@@ -1,0 +1,44 @@
+	memory[00] = 8'b01101000; // li s0
+	memory[01] = 8'b00000000; // imediato -> [2]grava 0
+	memory[02] = 8'b01101100; // li s1
+   	memory[03] = 8'b00000001; // imediato -> [3]grava 1
+	memory[04] = 8'b01110000; // li s2
+	memory[05] = 8'b00000010; // imediato -> [4]grava 2 
+	memory[06] = 8'b01110100; // li s3
+	memory[07] = 8'b00000011; // imediato -> [5]grava 3
+	memory[08] = 8'b01111000; // li s4
+	memory[09] = 8'b00000100; // imediato -> [6]grava 4
+	memory[10] = 8'b01111100; // li s5
+	memory[11] = 8'b00000101; // imediato -> [7]grava 5
+	memory[12] = 8'b00010011; // add s2,s1 -> soma[4] + [3] -> [4]  = 2 + 1
+	memory[13] = 8'b00110011; // sub s1,s1 -> sutrai[4] - [3] -> [4] = 2-1 
+	memory[14] = 8'b01010011; // mul s2,s1 -> multiplica[4] * [3] -> [4] = 2*1
+	memory[15] = 8'b10010000; // swd s2,s0 -> grava memoria[[0]] = [4] -> memoria[0] = 2
+	memory[16] = 8'b10111100; // lwd s5,s0 -> carrega [7] = memoria[[0]] -> [7] = 2
+	memory[17] = 8'b11011100; // beq s5,s0 -> comapara [7] == [0] -> r_bnz = 0
+	memory[18] = 8'b11111110; // bNZ s5,s0 -> jump = 2
+
+
+
+////////////////
+
+
+li s5
+5
+li s0
+1
+li s2
+5
+li s1
+1
+li s4
+12
+ll zero
+16
+mul s5, s0
+add s0, s1
+beq s2, s0
+bnz s4, zero
+li zero
+0
+sw s5, zero

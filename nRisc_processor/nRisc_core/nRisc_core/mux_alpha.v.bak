@@ -1,0 +1,15 @@
+
+
+module mux_alpha(instruction, clock, operation, reg_a, reg_b, data);
+
+input [7:0] instruction;
+input clock;
+
+output jump;
+output [7:0] jump_data; 
+
+
+controler	CONTRLER_MODULE(instruction[7:5], instruction[4:2], 3'b000|instruction[1:0], clock, instruction, jump_data, jump );
+
+
+endmodule

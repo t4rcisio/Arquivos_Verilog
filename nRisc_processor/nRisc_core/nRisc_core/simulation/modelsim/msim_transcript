@@ -1,0 +1,144 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do nRisc_core_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core {C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/nRisc_core.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module nRisc_core
+# 
+# Top level modules:
+# 	nRisc_core
+# vlog -vlog01compat -work work +incdir+C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core {C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/program_counter.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# vlog -vlog01compat -work work +incdir+C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core {C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/instructions_memory.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module instructions_memory
+# 
+# Top level modules:
+# 	instructions_memory
+# vlog -vlog01compat -work work +incdir+C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core {C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/mux_alpha.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux_alpha
+# 
+# Top level modules:
+# 	mux_alpha
+# vlog -vlog01compat -work work +incdir+C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core {C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/controler.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module controler
+# 
+# Top level modules:
+# 	controler
+# vlog -vlog01compat -work work +incdir+C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core {C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/registers.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module registers
+# 
+# Top level modules:
+# 	registers
+# vlog -vlog01compat -work work +incdir+C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core {C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/alu.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# vlog -vlog01compat -work work +incdir+C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core {C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/memory.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module memory
+# 
+# Top level modules:
+# 	memory
+# 
+vsim -voptargs=+acc work.nRisc_core
+# vsim -voptargs=+acc work.nRisc_core 
+# Loading work.nRisc_core
+# Loading work.program_counter
+# Loading work.instructions_memory
+# Loading work.mux_alpha
+# Loading work.controler
+# Loading work.registers
+# Loading work.alu
+# Loading work.memory
+# ** Warning: (vsim-3017) C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/nRisc_core.v(61): [TFMPC] - Too few port connections. Expected 6, found 5.
+# 
+#         Region: /nRisc_core/PC_MODULE
+# ** Warning: (vsim-3015) C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/nRisc_core.v(61): [PCDPC] - Port size (1 or 1) does not match connection size (8) for port 'out_signal'. The port definition is at: C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/program_counter.v(20).
+# 
+#         Region: /nRisc_core/PC_MODULE
+# ** Warning: (vsim-3722) C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/nRisc_core.v(61): [TFMPC] - Missing connection for port 'jumped'.
+# 
+# ** Warning: (vsim-3015) C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/nRisc_core.v(62): [PCDPC] - Port size (1 or 1) does not match connection size (8) for port 'clock'. The port definition is at: C:/AOC_1/nRisc_processor/nRisc_core_III/nRisc_core/instructions_memory.v(19).
+# 
+#         Region: /nRisc_core/IM_MODULE
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 100ps -dutycycle 50 -starttime 0ps -endtime 5000ps sim:/nRisc_core/clock
+add wave -position insertpoint  \
+sim:/nRisc_core/pc
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: tarci  Hostname: DELL-5556  ProcessID: 11316
+# 
+#           Attempting to use alternate WLF file "./wlftzkx2hf".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftzkx2hf
+# 
+add wave -position insertpoint  \
+sim:/nRisc_core/instruction
+add wave -position insertpoint  \
+sim:/nRisc_core/AL_MODULE/instruction
+add wave -position insertpoint  \
+sim:/nRisc_core/AL_MODULE/reg_a
+add wave -position insertpoint  \
+sim:/nRisc_core/AL_MODULE/reg_b
+add wave -position insertpoint  \
+sim:/nRisc_core/AL_MODULE/r_beq
+add wave -position insertpoint  \
+sim:/nRisc_core/AL_MODULE/solution
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
