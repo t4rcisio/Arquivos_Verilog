@@ -1,4 +1,6 @@
 *
+
+*.bak
 ./db
 ./incremental_db
 !.txt
