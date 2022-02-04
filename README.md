@@ -1,10 +1,7 @@
-# REPOSITÍRIO DE CÓDIGO EM VERILOG HDL
+# REPOSITÍRIO DE CÓDIGOS EM VERILOG HDL
 
+####  Processador nano-Risck, controlaor de display, e muito mais...
 
-
-
-####  Repositório onde compartilho meus códigos em verilog HDL
-#### Repository where I share my codes in verilog HDL
 ```
                 *************************************************************** 
                 *    * * * * *       * * * * *       * * * * *       * * *    *  
