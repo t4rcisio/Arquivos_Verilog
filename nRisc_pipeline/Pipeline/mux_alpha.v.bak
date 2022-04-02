@@ -1,0 +1,45 @@
+
+
+
+
+
+
+
+
+module mux_alpha(clock, instruction, operation, reg_a, reg_b, immediate);
+
+input clock;
+input instruction;
+
+output reg [2:0] reg_a;
+output reg [2:0] reg_b;
+output reg [2:0] operation;
+output reg [7:0] immediate;
+
+reg [7:0] memory;
+reg pipeline;
+
+
+initial pipeline = 0;
+
+always @(negedge clock) begin
+	
+	if(pipeline == 0) begin
+		memory = instruction;
+		pipeline = pipeline + 1 ;
+	end
+	else
+	if(pipeline == 1) begin
+		
+		instruction = memory[7:5];
+		reg_a       = memory[4:2];
+		reg_b       = 3'b000 | memory[1:0];
+		immediate   = memory; 
+		pipeline = 0;
+	end
+
+end
+
+
+
+endmodule

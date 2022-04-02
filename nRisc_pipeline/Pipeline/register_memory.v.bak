@@ -1,0 +1,26 @@
+
+
+
+
+
+
+module register_memory(clock, memory_data, alu_data, operation, reg_a, reg_b, data, data_0, data_1 );
+
+
+input clock;
+input [7:0] memory_data;
+input [7:0] alu_data;
+
+input [2:0] operation;
+input [2:0] reg_a;
+input [2:0] reg_b;
+input [7:0] data;
+
+output [7:0] data_0;
+output [7:0] data_1;
+
+
+
+
+
+endmodule

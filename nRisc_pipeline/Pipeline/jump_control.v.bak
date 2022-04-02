@@ -1,0 +1,30 @@
+
+
+
+
+module jump_control(clock, jump, jump_data, jump_signal, data_jump, jumped);
+
+input clock;
+input jump;
+input [7:0]jump_data;
+
+output reg jump_signal;
+output reg [7:0]data_jump;
+output reg jumped;
+
+
+always @(negedge clock) begin
+	
+	if(jump == 1 && jump_data >=0) begin
+		jump_signal = 1;
+		data_jump = jump_data;
+		jumped = 1;
+	end
+
+
+end
+
+
+
+
+endmodule

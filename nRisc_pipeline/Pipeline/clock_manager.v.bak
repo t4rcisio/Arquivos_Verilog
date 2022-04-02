@@ -1,0 +1,17 @@
+module clock_manager(clock, clock_00, clock_01, clock_02, clock_03);
+
+input clcok;
+
+output clcok_00;
+output clcok_01;
+output clock_02;
+output clock_03;
+
+
+
+always @(negedge clock)
+
+
+
+
+endmodule
